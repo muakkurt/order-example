@@ -63,7 +63,6 @@ Content-Length: 242
 ````
 Request Body
 ````json
-Content-Length: 242
 {
   "customer_id": 1,
   "products": [
