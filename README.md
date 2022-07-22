@@ -39,7 +39,10 @@ Ports used in the project:
    ```sh
    docker-compose run --rm artisan migrate:fresh --seed
    ```
-
+   This project is using sample data from GitHub with HTTP Request in Seeder file for Customers and Products
+   1. [Customers.json](https://github.com/ideasoft/se-take-home-assessment/blob/master/example-data/customers.json)
+   2. [Products.json](https://github.com/ideasoft/se-take-home-assessment/blob/master/example-data/products.json)
+   
 ---
 
 API Documentation: http://localhost:8080/api-docs
