@@ -54,5 +54,6 @@ class Order extends Model
         parent::delete();
 
         $this->products()->delete();
+        $this->histories()->delete();
     }
 }
