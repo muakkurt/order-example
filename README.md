@@ -55,12 +55,15 @@ Host: localhost:8080
 ```
 
 ### Create an order
-````json
+````
 POST /api/orders HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
 Content-Length: 242
-
+````
+Request Body
+````json
+Content-Length: 242
 {
   "customer_id": 1,
   "products": [
