@@ -13,7 +13,7 @@ Ports used in the project:
 1. Clone this project:
 
    ```sh
-   git clone https://github.com/supermavster/docker-laravel-8.git
+   git clone https://github.com/muakkurt/order-example
    ```
 
 2. Inside the folder `quiz` and Generate your own `.env` to docker compose with the next command:
